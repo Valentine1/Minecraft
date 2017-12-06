@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01ProcCube.CSharp", "01ProcCube.CSharp.csproj", "{014F10E6-B9D6-3F00-C9FE-7EB76601FC36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{014F10E6-B9D6-3F00-C9FE-7EB76601FC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014F10E6-B9D6-3F00-C9FE-7EB76601FC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014F10E6-B9D6-3F00-C9FE-7EB76601FC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014F10E6-B9D6-3F00-C9FE-7EB76601FC36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
