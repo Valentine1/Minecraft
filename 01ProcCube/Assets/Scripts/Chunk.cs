@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+public enum ChunkStatus { DRAW, DONE, KEEP };
 public class Chunk {
 
 	public Material cubeMaterial;
 	public Block[,,] chunkData;
 	public GameObject chunk;
+    public ChunkStatus status;
 
 	void BuildChunk()
 	{
@@ -50,6 +53,7 @@ public class Chunk {
 						chunkData[x,y,z] = new Block(Block.BlockType.AIR, pos, 
 						                chunk.gameObject, this);
 				}
+        this.status = ChunkStatus.DRAW;
 	}
 
 	public void DrawChunk()
