@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01ProcCube.CSharp", "01ProcCube.CSharp.csproj", "{014F10E6-B9D6-3F00-C9FE-7EB76601FC36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01ProcCube.CSharp.Plugins", "01ProcCube.CSharp.Plugins.csproj", "{50871A8E-F69E-0BB2-B5B4-191655097A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01ProcCube.CSharp.Editor.Plugins", "01ProcCube.CSharp.Editor.Plugins.csproj", "{3D2318BF-3054-304A-357D-F78F314AD567}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{014F10E6-B9D6-3F00-C9FE-7EB76601FC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{014F10E6-B9D6-3F00-C9FE-7EB76601FC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{014F10E6-B9D6-3F00-C9FE-7EB76601FC36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50871A8E-F69E-0BB2-B5B4-191655097A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50871A8E-F69E-0BB2-B5B4-191655097A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50871A8E-F69E-0BB2-B5B4-191655097A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50871A8E-F69E-0BB2-B5B4-191655097A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2318BF-3054-304A-357D-F78F314AD567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2318BF-3054-304A-357D-F78F314AD567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2318BF-3054-304A-357D-F78F314AD567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2318BF-3054-304A-357D-F78F314AD567}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

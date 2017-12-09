@@ -1,3 +1,5 @@
 *.bin
 .git
 /01ProcCube/Temp
+/01ProcCube/Assets/Standard Assets
+/01ProcCube/Library/metadata

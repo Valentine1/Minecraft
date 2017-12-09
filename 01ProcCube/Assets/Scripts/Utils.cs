@@ -5,7 +5,7 @@ using UnityEngine;
 public class Utils {
 
 	static int maxHeight = 32;
-	static float smooth = 0.02f;
+	static float smooth = 0.017f;
 	static int octaves = 3;
 	static float persistence = 0.5f;
 
@@ -45,9 +45,10 @@ public class Utils {
         float frequency = 1;
         float amplitude = 1;
         float maxValue = 0;
+        float offset = 32000f;
         for(int i = 0; i < oct ; i++) 
         {
-                total += Mathf.PerlinNoise(x * frequency, z * frequency) * amplitude;
+                total += Mathf.PerlinNoise((x+offset) * frequency, (z+offset) * frequency) * amplitude;
 
                 maxValue += amplitude;
 
